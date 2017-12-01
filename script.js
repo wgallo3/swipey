@@ -53,7 +53,7 @@ $(document).ready(function(event) {
 		var names = ['Lieke', 'Christina', 'Sanne', 'Soraya', 'Chanella', 'Larissa', 'Michelle'][Math.floor(Math.random() * 7)];
 		var ages = ['19','22','18','27','21', '18', '24'][Math.floor(Math.random() * 7)]
 		var photos = ['1', '2', '3', '4', '5', '6', '7'][Math.floor(Math.random() * 7)]
-		$("div.content").prepend('<div class="photo" id="photo" style="background-image:url(http://web.arjentienkamp.com/codepen/tinder/photo'+photos+'.jpg)">'
+		$("div.content").prepend('<div class="photo" id="photo" style="background-image:url(girls/'+photos+'.jpg)">'
     	+ '<span class="meta">'
     	+ '<p>'+names+', '+ages+'</p>'
     	+ '<span class="moments">0</span>'
